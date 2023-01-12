@@ -1,15 +1,4 @@
-import pytest
-
-@pytest.fixture()
-def setUp():
-    print("Launch browser")
-    print("Login")
-    print("Browse products")
-    #before yield is setup
-    yield
-    #after yield is teardown
-    print("Logoff")
-    print("Close browser")
+#here conftest file had the setUp function defined so no need to place it here
 
 #to use fixture add it as argument
 def testAddItemtoCart(setUp):
