@@ -10,3 +10,4 @@ learning pytest concepts
 - run specific test : pytest -v -s file name
 - run specific keyword test : pytest -k keyword
 - group test case together : @pytest.mark.namehere and then to run pytest -m marker name
+- fixtures used for setup and teardown of the test- @pytest.fixture() before function definition and then use function name in paranthesis
